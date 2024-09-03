@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        STAGING_SERVER = '65.1.134.74'
+        STAGING_SERVER = '13.235.69.97'
         DOCKER_IMAGE = 'app:v1'
     }
     stages {
